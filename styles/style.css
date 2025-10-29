@@ -1,0 +1,26 @@
+.bodyStyle {
+color: #2F3E46;
+background-color: #52796f;
+background-image: url("/assets/sokeres-docent-bKTZO9z3Kro-unsplash.jpg");
+background-size: cover;
+}
+
+.headerStyle > h1 {
+    background-color: #84A98C;
+    text-align: center;
+    margin-top: 20px;
+    color: #2F3E46;
+    
+}
+.navbar {
+background-color: #CAD2C5;
+}
+
+.navbar-nav > l {
+    display: flex;
+    justify-content: space-between;
+}
+.card-body {
+background-color:#2F3E46;
+color: #84A98C;
+}
