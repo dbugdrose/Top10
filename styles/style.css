@@ -38,11 +38,11 @@ text-align: center;
 }
 .navbar {
 background-color: #CAD2C5;
+
 }
 
-.navbar-nav > l {
-    display: flex;
-    justify-content: space-between;
+.nav-link, .nav-link:hover {
+color: #2F3E46;
 }
 
 .card, .card:hover, .card > .card-body, .card > .card-body:hover  {
@@ -50,13 +50,7 @@ background-color:#2F3E46;
 color: #84A98C;
 }
 
-.link {
-color: #84A98C;
-background-color:#2F3E46;
-text-decoration: none;
-}
-
-a:visited {
+.card-body > .link {
 color: #84A98C;
 background-color:#2F3E46;
 text-decoration: none;
