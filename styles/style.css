@@ -1,11 +1,35 @@
-.bodyStyle {
+.indexStyle {
 color: #2F3E46;
 background-color: #52796f;
+font-family:Georgia, 'Times New Roman', Times, serif;
 background-image: url("/assets/sokeres-docent-bKTZO9z3Kro-unsplash.jpg");
 background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+object-fit: fill;
+min-height: 100vh;
 }
 
-.headerStyle > h1 {
+.subBodyStyle {
+    background-color: #84A98C;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.modal {
+    background-color: #CAD2C5;
+    border-radius: 20px;
+}
+
+.subHeaderStyle {
+color: #84A98C;
+background-color: #2F3E46;
+margin-top: 20px;
+text-align: center;
+}
+
+.indexheaderStyle > h1 {
     background-color: #84A98C;
     text-align: center;
     margin-top: 20px;
@@ -20,7 +44,20 @@ background-color: #CAD2C5;
     display: flex;
     justify-content: space-between;
 }
-.card-body {
+
+.card, .card:hover, .card > .card-body, .card > .card-body:hover  {
 background-color:#2F3E46;
 color: #84A98C;
+}
+
+.link {
+color: #84A98C;
+background-color:#2F3E46;
+text-decoration: none;
+}
+
+a:visited {
+color: #84A98C;
+background-color:#2F3E46;
+text-decoration: none;
 }
