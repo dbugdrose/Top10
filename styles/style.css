@@ -38,11 +38,6 @@ text-align: center;
 }
 .navbar {
 background-color: #CAD2C5;
-
-}
-
-.nav-link, .nav-link:hover {
-color: #2F3E46;
 }
 
 .card, .card:hover, .card > .card-body, .card > .card-body:hover  {
@@ -54,4 +49,8 @@ color: #84A98C;
 color: #84A98C;
 background-color:#2F3E46;
 text-decoration: none;
+}
+
+li > .nav-link {
+    color: #2F3E46;
 }
