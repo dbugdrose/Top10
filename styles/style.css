@@ -59,3 +59,8 @@ li > .nav-link {
     background-color: #cad2c5 !important;
     color: black !important;
 }
+
+.albumArt {
+    width: 18rem;
+    height: 18rem;
+}
