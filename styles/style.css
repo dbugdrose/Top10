@@ -18,8 +18,8 @@ min-height: 100vh;
 }
 
 .modal {
-    background-color: #CAD2C5;
-    border-radius: 20px;
+    background-color: #CAD2C5 !important;
+    border-radius: 20px !important; 
 }
 
 .subHeaderStyle {
@@ -53,4 +53,9 @@ text-decoration: none;
 
 li > .nav-link {
     color: #2F3E46;
+}
+
+.customCardTextBox {
+    background-color: #cad2c5 !important;
+    color: black !important;
 }
