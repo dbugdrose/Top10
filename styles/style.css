@@ -59,8 +59,18 @@ li > .nav-link {
     background-color: #9EAFA7 !important;
     color: black !important;
     padding: 0px;
+    width: 49%; 
+    height: 100%;
 }
 
 .contentBackground {
     background-color: #CAD2C5;
+}
+
+img {
+    width: 49%;
+}
+
+video {
+    padding: 0px;
 }
