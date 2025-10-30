@@ -42,9 +42,9 @@ text-align: center;
 background-color: #CAD2C5;
 }
 
-.card, .card:hover, .card > .card-body, .card > .card-body:hover  {
-background-color:#2F3E46;
-color: #84A98C;
+.card {
+background-color:#2F3E46 !important;
+color: #84A98C !important;
 }
 
 .card-body > .link {
