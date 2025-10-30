@@ -1,19 +1,19 @@
 .indexStyle {
-color: #2F3E46;
-background-color: #52796f;
-font-family:Georgia, 'Times New Roman', Times, serif;
-background-image: url("/assets/sokeres-docent-bKTZO9z3Kro-unsplash.jpg");
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center center;
-background-attachment: fixed;
-object-fit: fill;
-min-height: 100vh;
+    color: #2F3E46;
+    background-color: #52796f;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url("/assets/sokeres-docent-bKTZO9z3Kro-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    object-fit: fill;
+    min-height: 100vh;
 }
 
 .subBodyStyle {
     background-color: #84A98C;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 
@@ -25,36 +25,37 @@ min-height: 100vh;
 }
 
 .subHeaderStyle {
-color: #84A98C;
-background-color: #2F3E46;
-margin-top: 20px;
-text-align: center;
+    color: #84A98C;
+    background-color: #2F3E46;
+    margin-top: 20px;
+    text-align: center;
 }
 
-.indexheaderStyle > h1 {
+.indexheaderStyle>h1 {
     background-color: #84A98C;
     text-align: center;
     margin-top: 50px;
     color: #2F3E46;
-    
+
 }
+
 .navbar {
-background-color: #CAD2C5;
+    background-color: #CAD2C5;
 }
 
 .card {
-background-color:#2F3E46 !important;
-color: #84A98C !important;
+    background-color: #2F3E46 !important;
+    color: #84A98C !important;
 }
 
-.card-body > .link {
-color: #84A98C;
-background-color:#2F3E46;
-text-decoration: none;
-text-align: center;
+.card-body>.link {
+    color: #84A98C;
+    background-color: #2F3E46;
+    text-decoration: none;
+    text-align: center;
 }
 
-li > .nav-link {
+li>.nav-link, li>.nav-link:hover {
     color: #2F3E46;
 }
 
@@ -62,7 +63,7 @@ li > .nav-link {
     background-color: #9EAFA7 !important;
     color: black !important;
     padding: 20px;
-    max-width: 49% !important; 
+    max-width: 49% !important;
     max-height: 100% !important;
 }
 
