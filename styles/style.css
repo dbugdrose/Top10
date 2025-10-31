@@ -70,3 +70,12 @@ li>.nav-link, li>.nav-link:hover {
 img {
     width: 49% !important;
 }
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #9EAFA7;
+}
+::-webkit-scrollbar-thumb {
+  background: #2F3E46; }
