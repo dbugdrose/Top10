@@ -24,11 +24,12 @@
     margin-bottom: 50px;
 }
 
-.subHeaderStyle {
+.subHeadFootStyle, .subHeadFootStyle > a {
     color: #84A98C;
     background-color: #2F3E46;
     margin-top: 20px;
     text-align: center;
+    text-decoration: none;
 }
 
 .indexheaderStyle>h1 {
